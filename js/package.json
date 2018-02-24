@@ -4,9 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "jasmine": "^3.0.0",
     "live-server": "^1.2.0"
   },
   "scripts": {
-    "test:local": "live-server ."
+    "test:local": "live-server .",
+    "test:ci": "jasmine spec/ci_test.js"
   }
 }

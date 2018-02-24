@@ -4,9 +4,7 @@ function Item(name, sell_in, quality) {
   this.quality = quality;
 }
 
-var items = []
-
-function update_quality() {
+function update_quality(items) {
   for (var i = 0; i < items.length; i++) {
     if (items[i].name != 'Aged Brie' && items[i].name.indexOf('Backstage passes') !== 0) {
       if (items[i].quality > 0) {
@@ -57,4 +55,12 @@ function update_quality() {
       }
     }
   }
+
+  return items;
+}
+
+if (typeof window === 'undefined') {
+  console.log('Exporting on global');
+  global.Item = Item;
+  global.update_quality = update_quality;
 }
