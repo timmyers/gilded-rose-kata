@@ -1,0 +1,10 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node
+    working_directory: ~/project/js
+    steps:
+      - checkout
+      - run: yarn 
+      
