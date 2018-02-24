@@ -1,6 +1,6 @@
 Hi and welcome to team Gilded Rose in the timmyers universe.
 
-Information shared with the circleci universe GildedRose is found [below][#CircleCI Universe].
+Information shared with the circleci universe GildedRose is found [below](#CircleCI Universe).
 
 # CircleCI Universe
 
