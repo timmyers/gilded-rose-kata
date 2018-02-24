@@ -3,7 +3,9 @@ Hi and welcome to team Gilded Rose in the timmyers universe.
 Information shared with the circleci universe GildedRose is found [below](#circleci-universe).
 
 This version is implemented in javascript.  
-Current build status can be viewed at https://circleci.com/gh/timmyers/gilded-rose-kata. (currently failing due to failed test) . 
+
+Current build status can be viewed at https://circleci.com/gh/timmyers/gilded-rose-kata. (currently failing due to failed test)
+
 Current test status can be seen visually at https://friendly-snyder-a6b587.netlify.com/.
 
 # CircleCI Universe
