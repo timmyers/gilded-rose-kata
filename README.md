@@ -2,6 +2,8 @@ Hi and welcome to team Gilded Rose in the timmyers universe.
 
 Information shared with the circleci universe GildedRose is found [below](#circleci-universe).
 
+This version is implemented in javascript and the current test status can be seen at https://friendly-snyder-a6b587.netlify.com/.
+
 # CircleCI Universe
 
 As you know, we are a small inn with a prime location in a prominent city ran
