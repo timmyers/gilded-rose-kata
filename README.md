@@ -4,9 +4,26 @@ Information shared with the circleci universe GildedRose is found [below](#circl
 
 This version is implemented in javascript.  
 
-Current build status can be viewed at https://circleci.com/gh/timmyers/gilded-rose-kata. (currently failing due to failed test)
-
+Current build status can be viewed at https://circleci.com/gh/timmyers/gilded-rose-kata. (currently failing due to failed test)  
 Current test status can be seen visually at https://friendly-snyder-a6b587.netlify.com/.
+
+## Local Instructions
+The simplest way to run locally requires `yarn` or equivalent. Clone the repo, then:
+```
+cd js && yarn
+```
+To view the visual test results:
+```
+yarn test:local
+```
+To run the tests on the CLI:
+```
+yarn test:ci
+```
+
+If you do not want to install dependencies, you can also view the test results visually by opening
+the `SpecRunner.html` and `TexttestFixture.html` files in your browser.
+
 
 # CircleCI Universe
 
