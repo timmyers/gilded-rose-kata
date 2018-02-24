@@ -3,9 +3,12 @@ jobs:
   build:
     docker:
       - image: circleci/node
-    working_directory: ~/project/js
     steps:
       - checkout
-      - run: yarn 
-      - run: yarn test:ci
+      - run: 
+          working_directory: ~/project/js
+          command: yarn 
+      - run: 
+          working_directory: ~/project/js
+          command: yarn test:ci
       
