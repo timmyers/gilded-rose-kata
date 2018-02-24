@@ -74,6 +74,14 @@ describe("Gilded Rose", function() {
     expect(items[0].name).toEqual("Aged Brie");
     expect(items[0].sell_in).toEqual(3);
     expect(items[0].quality).toEqual(50);
+
+    // Check that doesn't go over 50, would increase by 3
+    items = [new Item('Backstage passes to a TAFKAL80ETC concert', 5, 49)];
+    items = update_quality(items);
+
+    expect(items[0].name).toEqual("Backstage passes to a TAFKAL80ETC concert");
+    expect(items[0].sell_in).toEqual(4);
+    expect(items[0].quality).toEqual(50);
   });
 
   // TODO: Make this test pass. Might require modifying Item() function. Talk with goblin about
