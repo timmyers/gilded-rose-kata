@@ -1,4 +1,8 @@
-Hi and welcome to team Gilded Rose.
+Hi and welcome to team Gilded Rose in the timmyers universe.
+
+Information shared with the circleci universe GildedRose is found [below][CircleCI Universe].
+
+# CircleCI Universe
 
 As you know, we are a small inn with a prime location in a prominent city ran
 by a friendly innkeeper named Allison.  We also buy and sell only the finest
